@@ -18,7 +18,7 @@ if (weather > 70 && typeof weather === 'number'){
 
 //if-elseif statements can be chained
 
-let age = 30;
+let age = 17;
 
 if (age >= 25){
     console.log('yay! you can rent a car!');
@@ -26,6 +26,6 @@ if (age >= 25){
     console.log('Yay! You can drink!');
 } else if (age >= 18){
     console.log('Yay! You can vote!');
-} else if{
-    console.log('Sorry, you are too young to do anything fun')
+} else {
+    console.log('Sorry, you are too young to do anything fun');
 }
