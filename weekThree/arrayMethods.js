@@ -57,8 +57,8 @@ let shoppingList = ["celery", "limes", "lemons", "grenadine", "oranges"];
 // console.log(shoppingList.length)
 
 //Array.push() - adds element to the end of the array
-// shoppingList.push("salt");
-// console.log(shoppingList);
+shoppingList.push("salt");
+console.log(shoppingList);
 
 //Array.unshift() - adds a new element at the beginning of the array
 // shoppingList.unshift("salt");
@@ -142,8 +142,8 @@ let shoppingList = ["celery", "limes", "lemons", "grenadine", "oranges"];
 // console.log(shoppingList);
 // console.log(...shoppingList);
 
-let numArray = [20, 40, 60];
-function sum(numOne, numTwo, numThree){
-    return numOne + numTwo + numThree;
-}
-console.log(sum(...numArray));
+// let numArray = [20, 40, 60];
+// function sum(numOne, numTwo, numThree){
+//     return numOne + numTwo + numThree;
+// }
+// console.log(sum(...numArray));
